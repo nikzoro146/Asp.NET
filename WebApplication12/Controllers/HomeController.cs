@@ -21,6 +21,15 @@ namespace WebApplication12.Controllers
         public IActionResult Privacy()
         {
             return View();
+
+        }
+        public IActionResult Project()
+        {
+            return View();
+        }
+        public IActionResult Prise()
+        {
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
